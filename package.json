@@ -1,0 +1,21 @@
+{
+  "name": "heroku-dat",
+  "version": "0.0.1",
+  "description": "Dat server template for Heroku",
+  "dependencies": {
+    "dat": "git://github.com/bmpvieira/dat.git#bmpvieira-dev"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "postinstall": "dat init",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dat",
+    "data",
+    "heroku",
+    "science"
+  ],
+  "author": "Bruno Vieira <mail@bmpvieira.com>",
+  "license": "MIT"
+}
