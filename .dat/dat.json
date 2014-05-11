@@ -1,0 +1,10 @@
+{
+  "columns": [
+    "uid",
+    "expxml",
+    "runs",
+    "extlinks",
+    "createdate",
+    "updatedate"
+  ]
+}
