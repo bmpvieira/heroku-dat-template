@@ -1,0 +1,13 @@
+{
+  "columns": [
+    "uid",
+    "title",
+    "accession",
+    "date",
+    "modificationdate",
+    "organization",
+    "taxonomy",
+    "sourcesample",
+    "sampledata"
+  ]
+}
