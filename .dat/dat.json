@@ -1,0 +1,9 @@
+{
+  "columns": [
+    "description",
+    "projects",
+    "papers",
+    "assemblies",
+    "reads"
+  ]
+}
