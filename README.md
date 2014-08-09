@@ -2,7 +2,7 @@ Heroku-dat
 ==========
 > A simple Heroku app template for deploying [Dat](http://github.com/maxogden/dat)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/bmpvieira/heroku-dat)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/bmpvieira/heroku-dat-template.git)
 
 <!-- https://devcenter.heroku.com/articles/heroku-button -->
 <!-- http://expeditedssl.com/heroku-button-maker -->

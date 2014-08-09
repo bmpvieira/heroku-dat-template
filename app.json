@@ -1,8 +1,8 @@
 {
-    "name": "heroku-dat",
+    "name": "heroku-dat-template",
     "description": "A simple Heroku app template for deploying Dat",
     "website": "http://dat-data.com",
-    "repository": "https://github.com/bmpvieira/heroku-dat",
+    "repository": "https://github.com/bmpvieira/heroku-dat-template.git",
     "logo": "http://dat-data.com/img/sticker.png",
     "success_url": "/",
     "keywords": [
