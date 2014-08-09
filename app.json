@@ -1,0 +1,24 @@
+{
+    "name": "heroku-dat",
+    "description": "A simple Heroku app template for deploying Dat",
+    "website": "http://dat-data.com",
+    "repository": "https://github.com/bmpvieira/heroku-dat",
+    "logo": "http://dat-data.com/img/sticker.png",
+    "success_url": "/",
+    "keywords": [
+        "dat",
+        "data",
+        "synchronization",
+        "dataset",
+        "data package"
+    ],
+    "scripts": {
+        "postdeploy": ""
+    },
+    "addons": [
+        ""
+    ],
+    "env": {
+        "BUILDPACK_URL": ""
+    }
+}
