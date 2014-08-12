@@ -4,6 +4,7 @@
   "website": "http://dat-data.com",
   "repository": "https://github.com/bmpvieira/heroku-dat-template",
   "logo": "http://dat-data.com/img/sticker.png",
+  "addons": ["heroku-postgresql:hobby-dev"],
   "keywords": [
     "dat",
     "data",
