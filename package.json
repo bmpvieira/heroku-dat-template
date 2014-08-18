@@ -3,12 +3,13 @@
   "version": "0.0.1",
   "description": "Dat server template for Heroku",
   "dependencies": {
-    "dat": "git://github.com/bmpvieira/dat.git"
+    "dat": "^6.1.2"
   },
   "devDependencies": {},
   "scripts": {
     "postinstall": "dat init --no-prompt",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [
     "dat",
