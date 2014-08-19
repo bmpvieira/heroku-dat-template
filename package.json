@@ -6,7 +6,7 @@
     "dat": "^6.3.3",
     "pg": "^3.4.1",
     "pg-query-stream": "^0.6.0",
-    "sqldown": "^1.0.2"
+    "sqldown": "calvinmetcalf/sqldown#autoname-index"
   },
   "devDependencies": {},
   "scripts": {
