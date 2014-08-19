@@ -11,9 +11,6 @@
     "dataset",
     "data package"
   ],
-  "addons": [
-    "heroku-postgresql:hobby-dev"
-  ],
   "env": {
     "DEBUG": "",
     "DAT_ADMIN_USER": "",
