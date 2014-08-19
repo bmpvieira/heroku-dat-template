@@ -1,1 +1,1 @@
-web: dat serve
+web: dat listen
