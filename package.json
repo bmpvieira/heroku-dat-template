@@ -3,16 +3,14 @@
   "version": "0.0.1",
   "description": "Dat server template for Heroku",
   "dependencies": {
-    "dat": "^6.3.0",
+    "dat": "maxogden/dat",
     "pg": "^3.4.1",
     "pg-query-stream": "^0.6.0",
     "sqldown": "^1.0.2"
   },
   "devDependencies": {},
   "scripts": {
-    "postinstall": "dat init --no-prompt",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "postinstall": "DEBUG=* dat init --no-prompt"
   },
   "keywords": [
     "dat",
