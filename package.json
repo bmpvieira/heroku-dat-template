@@ -3,7 +3,10 @@
   "version": "0.0.1",
   "description": "Dat server template for Heroku",
   "dependencies": {
-    "dat": "^6.1.2"
+    "dat": "^6.3.0",
+    "pg": "^3.4.1",
+    "pg-query-stream": "^0.6.0",
+    "sqldown": "^1.0.2"
   },
   "devDependencies": {},
   "scripts": {

@@ -10,5 +10,11 @@
     "synchronization",
     "dataset",
     "data package"
-  ]
+  ],
+  "addons": [
+    "heroku-postgresql:hobby-dev"
+  ],
+  "env": {
+    "DEBUG": "*"
+  }
 }
