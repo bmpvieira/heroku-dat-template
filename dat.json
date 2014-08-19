@@ -1,8 +1,0 @@
-{
-  "leveldown": {
-    "path": {
-      "env": "DATABASE_URL"
-    },
-    "module": "sqldown"
-  }
-}
