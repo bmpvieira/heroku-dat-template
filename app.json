@@ -15,7 +15,7 @@
     "heroku-postgresql:hobby-dev"
   ],
   "env": {
-    "DEBUG": "*",
+    "DEBUG": "false",
     "DAT_ADMIN_USER": "admin",
     "DAT_ADMIN_PASS": ""
   }
