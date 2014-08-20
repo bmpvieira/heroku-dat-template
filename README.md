@@ -10,8 +10,12 @@ Deploy a dat on top of Heroku Postgres (data will get stored permanently). Uses 
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/bmpvieira/heroku-dat-template/tree/postgres)
 
-<!-- https://devcenter.heroku.com/articles/heroku-button -->
-<!-- http://expeditedssl.com/heroku-button-maker -->
+Environment Variables
+-----
+During deploy you will be asked to provide values for 3 environment variables. These are totally optional.
+
+* `DEBUG` - if you want to run dat in debug mode enter `*` as the value here, this will cause debug info to show up in `heroku logs`
+* `DAT_ADMIN_USER` and `DAT_ADMIN_PASS` set this to make your dat read-only for anonymous users. This is recommended if you care about the validity of the data on your heroku instance
 
 Usage
 -----
@@ -22,6 +26,8 @@ Alternatively:
 - Clone this repo;
 - Push it to Heroku.
 
+<!-- https://devcenter.heroku.com/articles/heroku-button -->
+<!-- http://expeditedssl.com/heroku-button-maker -->
 
 License
 -------
