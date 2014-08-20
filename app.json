@@ -16,7 +16,7 @@
   ],
   "env": {
     "DEBUG": "*",
-    "DAT_ADMIN_USER": "",
+    "DAT_ADMIN_USER": "admin",
     "DAT_ADMIN_PASS": ""
   }
 }
