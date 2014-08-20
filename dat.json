@@ -3,6 +3,6 @@
     "path": {
       "env": "DATABASE_URL"
     },
-    "backend": "sqldown"
+    "module": "sqldown"
   }
 }
