@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Dat server template for Heroku",
   "dependencies": {
-    "dat": "^6.3.3",
+    "dat": "^6.3.4",
     "pg": "^3.4.1",
     "pg-query-stream": "^0.6.0",
     "sqldown": "calvinmetcalf/sqldown#autoname-index"
