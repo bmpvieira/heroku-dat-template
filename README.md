@@ -12,10 +12,10 @@ Deploy a dat on top of Heroku Postgres (data will get stored permanently). Uses 
 
 Environment Variables
 -----
-During deploy you will be asked to provide values for 3 environment variables. These are totally optional.
+During deploy you will be asked to provide values for 3 environment variables.
 
-* `DEBUG` - if you want to run dat in debug mode enter `*` as the value here, this will cause debug info to show up in `heroku logs`
-* `DAT_ADMIN_USER` and `DAT_ADMIN_PASS` set this to make your dat read-only for anonymous users. This is recommended if you care about the validity of the data on your heroku instance
+* `DEBUG` - enter `*` to enable debug logging info to show up in `heroku logs`
+* `DAT_ADMIN_USER` and `DAT_ADMIN_PASS` - these make dat read-only for anonymous users
 
 Usage
 -----
