@@ -10,6 +10,8 @@ Deploy a dat on top of Heroku Postgres (data will get stored permanently). Uses 
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/bmpvieira/heroku-dat-template/tree/postgres)
 
+**note** only tabular data is stored in postgres. blobs will still be stored on the ephemeral filesystem (unless you fork this and put in your own blob backend)
+
 Environment Variables
 -----
 During deploy you will be asked to provide values for 3 environment variables.
