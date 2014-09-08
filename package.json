@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Dat server template for Heroku",
   "dependencies": {
-    "dat": "^6.3.4",
+    "dat": "^6.5.1",
     "redisdown": "^0.1.3"
   },
   "devDependencies": {},
