@@ -11,6 +11,9 @@
     "dataset",
     "data package"
   ],
+  "addons": [
+    "rediscloud:25"
+  ],
   "env": {
     "DEBUG": "false",
     "DAT_ADMIN_USER": "admin",

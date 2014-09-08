@@ -1,0 +1,10 @@
+{
+  "name": "heroku-dat-template",
+  "leveldown": {
+    "path": "dat",
+    "url": {
+      "env": "REDISCLOUD_URL"
+    },
+    "module": "redisdown"
+  }
+}
