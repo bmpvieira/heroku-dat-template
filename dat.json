@@ -1,8 +1,7 @@
 {
   "name": "heroku-dat-template",
   "leveldown": {
-    "path": "dat",
-    "url": {
+    "path": {
       "env": "REDISCLOUD_URL"
     },
     "module": "redisdown"
