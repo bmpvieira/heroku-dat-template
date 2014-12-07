@@ -28,10 +28,11 @@ _Note: Only tabular data is stored in postgres/redis. Blobs will still be stored
 
 Environment Variables
 -----
-During deploy you will be asked to provide values for 3 environment variables.
+During deploy you will be asked to provide values for the following environment variables.
 
 * `DEBUG` - enter `*` to enable debug logging info to show up in `heroku logs`
 * `DAT_ADMIN_USER` and `DAT_ADMIN_PASS` - these make dat read-only for anonymous users
+* `HEROKU_URL` set this to your heroku app url, so it can self ping itself to not be spinned down
 
 Usage
 -----

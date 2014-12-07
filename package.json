@@ -3,11 +3,13 @@
   "version": "0.0.1",
   "description": "Dat server template for Heroku",
   "dependencies": {
-    "dat": "^6.3.3"
+    "dat": "^6.3.3",
+    "heroku-self-ping": "^1.1.1"
   },
   "devDependencies": {},
   "scripts": {
-    "postinstall": "dat init --no-prompt"
+    "postinstall": "dat init --no-prompt",
+    "start": "dat listen"
   },
   "keywords": [
     "dat",
