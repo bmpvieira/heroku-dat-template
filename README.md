@@ -26,10 +26,20 @@ Data will get stored permanently and be available to clone as long as the app re
 
 _Note: Only tabular data is stored in postgres/redis. Blobs will still be stored on the ephemeral filesystem (unless you fork this and put in your own blob backend)_
 
-Environment Variables
------
-During deploy you will be asked to provide values for the following environment variables.
 
+Usage
+-----
+After hitting one of the purple buttons, and logging into herkou, you'll see this screen:
+
+![landing](screens/landing.png)
+
+You should enter a unique, memorable name for your dat. It will be available at *name*.herokuapp.com.
+
+Then, scroll down.
+
+You will see a place to enter your app and environment variables.
+
+![environment](screens/options.png)
 * `DEBUG`
   - defaults to `false`
   - `*` enables debug mode.
@@ -40,20 +50,23 @@ During deploy you will be asked to provide values for the following environment 
   - If empty, your dat has no authentication. That means anyone with the URL can change the data.
   - Keep these secret, only give them to people you trust!
 
+Once you enter in your desired options, hit the "Deploy" button.
 
-Usage
------
-After hitting one of the purple buttons, and logging into herkou, you'll see this screen:
+You might need to wait a couple of minutes while heroku starts.
 
-![button](screens/landing.png)
+![deployment](screens/deployment.png)
+
+You can then click "view" and your dat will be available at *name*.herokuapp.com.
+
+![empty-dat](screens/empty-dat.png)
+
+Troubleshooting
+---------------
+
+Dat is still in alpha. If you have any trouble, it's probably because we did something wrong! Please tell us by opening an issue here or going to #dat on IRC in freenode.
 
 
 
-
-Alternatively, you can:
-- Create an Heroku app
-- Clone this repo
-- Push it to Heroku
 
 <!-- https://devcenter.heroku.com/articles/heroku-button -->
 <!-- http://expeditedssl.com/heroku-button-maker -->
