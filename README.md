@@ -37,7 +37,7 @@ You should enter a unique, memorable name for your dat. It will be available at 
 
 Then, scroll down.
 
-You will see a place to enter your app and environment variables.
+You will see a place to enter some options.
 
 ![environment](screens/options.png)
 * `DEBUG`
@@ -45,8 +45,9 @@ You will see a place to enter your app and environment variables.
   - `*` enables debug mode.
   - view logs with ```heroku logs```
 
-* `DAT_ADMIN_USER`
-* `DAT_ADMIN_PASS`
+![environment](screens/password-enter.png)
+
+* `DAT_ADMIN_USER` and `DAT_ADMIN_PASS`
   - If empty, your dat has no authentication. That means anyone with the URL can change the data.
   - Keep these secret, only give them to people you trust!
 
