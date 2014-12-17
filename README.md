@@ -45,7 +45,7 @@ Usage
 -----
 After hitting one of the purple buttons, and logging into herkou, you'll see this screen:
 
-[!button]('screens/landing.png')
+![button](screens/landing.png)
 
 
 
