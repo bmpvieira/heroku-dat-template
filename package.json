@@ -2,6 +2,9 @@
   "name": "heroku-dat",
   "version": "0.0.1",
   "description": "Dat server template for Heroku",
+  "engines": {
+    "node": "0.10.x"
+  },
   "dependencies": {
     "dat": "^7.0.0-pre-5",
     "pg": "^3.4.1",
