@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Dat server template for Heroku",
   "dependencies": {
-    "dat": "^7.0.0-pre-5",
+    "dat": "^7.0.0-pre-5"
   },
   "devDependencies": {},
   "scripts": {
