@@ -14,7 +14,7 @@
   "env": {
     "DEBUG": {
       "description": "Outputs detailed information about each process. Use '*' to turn on.",
-      "default": "false"
+      "value": "false"
     }
   }
 }
