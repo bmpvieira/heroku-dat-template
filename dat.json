@@ -1,8 +1,9 @@
 {
-  "leveldown": {
-    "path": {
-      "env": "DATABASE_URL"
-    },
-    "module": "sqldown"
+  "name": "mydat",
+  "addons": {
+    "backend": {
+      "module": "sqldown",
+      "env": "DATABASE"
+    }
   }
 }
