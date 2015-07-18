@@ -13,7 +13,7 @@
     "data package"
   ],
   "addons": [
-    "heroku-postgresql:hobby-dev"
+    "heroku-postgresql"
   ],
   "env": {
     "DEBUG": {
