@@ -19,6 +19,6 @@
     "DEBUG": {
       "description": "Outputs detailed information about the process. Use '*' for everything.",
       "value": "False"
-    },
+    }
   }
 }
