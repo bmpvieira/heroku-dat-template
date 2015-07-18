@@ -12,9 +12,9 @@
     "data package"
   ],
   "env": {
-    "DEBUG": "false",
-    "DAT_ADMIN_USER": "admin",
-    "DAT_ADMIN_PASS": "",
-    "HEROKU_URL": "http://<appname>.herokuapp.com"
+    "DEBUG": {
+      "description": "Outputs detailed information about each process. Use '*' to turn on.",
+      "default": "false"
+    }
   }
 }
