@@ -15,8 +15,9 @@
     "rediscloud:25"
   ],
   "env": {
-    "DEBUG": "false",
-    "DAT_ADMIN_USER": "admin",
-    "DAT_ADMIN_PASS": ""
+    "DEBUG": {
+      "description": "Outputs detailed information about the process. Use '*' for everything.",
+      "value": "False"
+    }
   }
 }
