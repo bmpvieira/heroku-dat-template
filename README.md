@@ -1,9 +1,7 @@
 Heroku-dat-template
 ===================
 
-## A simple Heroku app template for deploying [Dat](http://github.com/maxogden/dat)
-
-This repo allows you to easily deploy dat on heroku. More information about each of the three deployment methods can be found below:
+A simple Heroku app template for deploying [Dat](http://github.com/maxogden/dat)
 
 ### Permanent Tabular Data Storage
 Data will get stored permanently and be available to clone as long as the app remains active.
