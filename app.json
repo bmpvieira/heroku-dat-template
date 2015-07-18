@@ -12,7 +12,7 @@
     "data package"
   ],
   "addons": [
-    "rediscloud:25"
+    "rediscloud"
   ],
   "env": {
     "DEBUG": {
