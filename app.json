@@ -5,6 +5,9 @@
   "repository": "https://github.com/bmpvieira/heroku-dat-template",
   "logo": "http://dat-data.com/img/sticker.png",
   "success_url": "/",
+  "engines": {
+    "node": "0.10.x"
+  },
   "keywords": [
     "dat",
     "data",
