@@ -4,6 +4,7 @@
   "website": "http://dat-data.com",
   "repository": "https://github.com/bmpvieira/heroku-dat-template",
   "logo": "http://dat-data.com/img/sticker.png",
+  "success_url": "/",
   "keywords": [
     "dat",
     "data",
@@ -15,6 +16,9 @@
     "heroku-postgresql:hobby-dev"
   ],
   "env": {
-    "DEBUG": "false"
+    "DEBUG": {
+      "description": "Outputs detailed information about the process. Use '*' for everything.",
+      "value": "False"
+    },
   }
 }
