@@ -19,5 +19,13 @@
     "science"
   ],
   "author": "Bruno Vieira <mail@bmpvieira.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dat": {
+    "addons": {
+      "backend": {
+        "module": "redisdown",
+        "env": "REDISCLOUD_URL"
+      }
+    }
+  }
 }

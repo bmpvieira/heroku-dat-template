@@ -1,9 +1,0 @@
-{
-  "name": "mydat",
-  "addons": {
-    "backend": {
-      "module": "redisdown",
-      "env": "redisdown"
-    }
-  }
-}
