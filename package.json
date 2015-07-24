@@ -7,10 +7,10 @@
     "npm": "2.1.x"
   },
   "dependencies": {
-    "dat": "^7.0.0-pre-5",
+    "dat": "^7.0.0",
     "pg": "^3.4.1",
     "pg-query-stream": "^0.6.0",
-    "sqldown": "calvinmetcalf/sqldown#autoname-index"
+    "sqldown": "1.1.0"
   },
   "devDependencies": {},
   "scripts": {
