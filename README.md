@@ -6,13 +6,14 @@ A simple Heroku app template for deploying [Dat](http://github.com/maxogden/dat)
 ### Permanent Tabular Data Storage
 Data will get stored permanently and be available to clone as long as the app remains active.
 
-[Redis Cloud](https://addons.heroku.com/rediscloud)
-25MB free. This is a high-performance service with no database connection limit.
+[Heroku Postgres](https://addons.heroku.com/heroku-postgresql)
+10,000 rows free.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/bmpvieira/heroku-dat-template/tree/redis)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/bmpvieira/heroku-dat-template/tree/postgres)
 
 ### Temporary Data Storage
-Deploy a dat on the Heroku [Ephemeral Filesystem](https://devcenter.heroku.com/articles/dynos#ephemeral-filesystem). Data will be temporary. This is the best option for testing and playing around with dat.
+
+[Heroku Ephemeral Filesystem](https://devcenter.heroku.com/articles/dynos#ephemeral-filesystem). Data will be temporary. This is the best option for testing and playing around with dat, but not for stable use.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/bmpvieira/heroku-dat-template.git)
 
