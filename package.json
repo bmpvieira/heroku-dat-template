@@ -21,11 +21,9 @@
   "author": "Bruno Vieira <mail@bmpvieira.com>",
   "license": "MIT",
   "dat": {
-    "addons": {
-      "backend": {
-        "module": "redisdown",
-        "env": "REDISCLOUD_URL"
-      }
+    "backend": {
+      "module": "redisdown",
+      "env": "REDISCLOUD_URL"
     }
   }
 }
