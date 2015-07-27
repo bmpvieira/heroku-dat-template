@@ -10,7 +10,7 @@
     "dat": "^7.0.0",
     "pg": "^3.4.1",
     "pg-query-stream": "^0.6.0",
-    "sqldown": "1.1.0"
+    "sqldown": "^2.0.1"
   },
   "devDependencies": {},
   "scripts": {
@@ -25,5 +25,11 @@
     "science"
   ],
   "author": "Bruno Vieira <mail@bmpvieira.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dat": {
+    "backend": {
+      "module": "sqldown",
+      "env": "DATABASE_URL"
+    }
+  }
 }
